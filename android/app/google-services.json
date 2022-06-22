@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "675761794592",
+    "project_id": "i-care-519a0",
+    "storage_bucket": "i-care-519a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675761794592:android:08d2f47e992ed101da9645",
+        "android_client_info": {
+          "package_name": "com.example.capstone_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675761794592-cb4kh1t1buu071tvd8hb3hl2ou2b3quj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA05LgV6PHIYxpN4yqmreNYbzPM5ZH7kLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675761794592-cb4kh1t1buu071tvd8hb3hl2ou2b3quj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

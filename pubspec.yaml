@@ -1,0 +1,82 @@
+name: capstone_project
+description: LAU Capstone Project CSC599
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  im_stepper: ^0.1.3
+  http: ^0.13.4
+  flutter_emoji: ^2.4.0
+  cached_network_image: ^3.2.0
+  geolocator: ^8.1.1
+  geocode: ^1.0.1
+  dropdown_search: ^2.0.1
+  url_launcher: ^6.0.20
+  carousel_slider: ^4.0.0
+  image_picker: ^0.8.4+10
+  flutter_translate: ^3.0.1
+  auto_size_text: ^3.0.0
+  auto_size_text_field: ^1.0.1
+  firebase_core: ^1.13.1
+  firebase_auth: ^3.3.11
+  fluttertoast: ^8.0.9
+  cloud_firestore: ^3.1.10
+  json_serializable: ^6.1.5
+  cloud_firestore_odm: ^1.0.0-dev.10
+  shared_preferences: ^2.0.13
+  pdf: ^3.7.4
+  syncfusion_flutter_pdfviewer: ^20.1.50-beta
+  path_provider: ^2.0.9
+  printing: ^5.8.0
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/bg/first_aid.png
+    - images/bg/medical_characters.png
+    - images/bg/medical_equipment.png
+    - images/bg/nurse_and_equipment.png
+    - images/bg/hospital.png
+    - icons/custom_add.png
+    - icons/custom_gmail.png
+    - icons/custom_facebook.png
+    - icons/custom_doc_male.png
+    - icons/custom_doc_female.png
+    - icons/custom_doc_other.png
+    - icons/custom_nurse_female.png
+    - icons/custom_nurse_male.png
+    - icons/custom_nurse_other.png
+    - icons/custom_clipboard.png
+    - icons/custom_add.png
+    - icons/custom_list.png
+    - icons/custom_edit_pen.png
+    - icons/custom_patient.png
+    - icons/custom_pulse.png
+    - icons/custom_remove.png
+    - icons/custom_timer.png
+    - icons/custom_queue.png
+    - icons/custom_home.png
+    - icons/custom_coronavirus.png
+  fonts:
+  - family: IndieFlower
+    fonts:
+    - asset: fonts/indie_flower_regular.ttf
+  - family: OpenSans
+    fonts:
+      - asset: fonts/open_sans.ttf
+
+
+
