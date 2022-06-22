@@ -1,16 +1,10 @@
 # capstone_project
 
-LAU Capstone Project CSC599
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+‘i-Care’ is a mobile application designed using the Flutter SDK and Firebase Cloud Firestore database, targeting Medical Clinic centers. The users are nurses and doctors. This application will facilitate the data entry of patients, reduce paperwork for traditional clinics, secure the medical  records and make them easily accessible, store patients’ imaging, and manage queues.
+Users: Nurse --> Manages patient queue - Records patient vitals (temperature, blood pressure....) - Insert new patient - Edit patient information - Manage Timer ---
+Doctor --> Dequeue patients - Approve nurse requests - Insert new patient - Edit patient information - View Medical Records 
+Clustering Process: 
+1- The doctor creates the clinic
+2- The nurse sends a request to the doctor’s email
+3- The doctor accepts/rejects the request
+4- Upon accepting, the nurse receives access to all the  patient records of that clinic
